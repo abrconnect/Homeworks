@@ -1,0 +1,259 @@
+*,
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-size: 0;
+}
+
+.main-block {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ears-left-big,
+.ears-right-big {
+    width: 148px;
+    height: 140px;
+    display: inline-block;
+    background-color: #9574B4;
+    padding: 27px 57px 14px;
+}
+
+.ears-left-big {
+    margin: 0 297px 0 75px;
+}
+
+.ears-right-big {
+    margin: 0 86px 0 0;
+
+}
+
+.ears-left-small,
+.ears-right-small {
+    width: 150px;
+    height: 140px;
+    background-color: #F5BA20;
+}
+
+.scalp {
+    width: 751px;
+    height: 467px;
+    background-color: #9574B4;
+    padding: 97px 102px 71px 131px;
+
+}
+
+.eyes-left-big,
+.eyes-right-big {
+    width: 263px;
+    height: 179px;
+    display: inline-block;
+    background-color: #F5BA20;
+}
+
+.eyes-left-big {
+    margin-right: 225px;
+}
+
+.eyes-left-small,
+.eyes-right-small {
+    width: 94px;
+    height: 122px;
+    background-color: #000000;
+}
+
+.eyes-left-small {
+    margin-top: 57px;
+    margin-left: 169px;
+}
+
+.eyes-right-small {
+    margin-top: 57px;
+}
+
+.nose {
+    width: 321px;
+    height: 83px;
+    background-color: #FDC580;
+    margin: 41px 216px 0;
+    padding-top: 35px;
+    margin-bottom: 41px;
+}
+
+.nose-left-part,
+.nose-right-part {
+    width: 64px;
+    height: 83px;
+    background-color: #E73896;
+    display: inline-block;
+}
+
+.nose-left-part {
+    margin: 0 81px 0 58px;
+}
+
+.mouth {
+    width: 751px;
+    height: 90px;
+    background-color: #DF1F26;
+}
+
+.teeth-black-up,
+.teeth-white-down {
+    width: 64px;
+    height: 45px;
+    display: inline-block;
+}
+
+.teeth-black-up {
+    background-color: #000000;
+}
+
+.teeth-white-down {
+    background-color: #FFFFFF;
+}
+
+/* Teeth black-up part */
+.up-first {
+    margin-left: 108px;
+    margin-right: 43px;
+}
+
+.up-second {
+    margin-right: 51px;
+}
+
+.up-third {
+    margin-right: 43px;
+}
+
+.up-fourth {
+    margin-right: 57px;
+}
+
+.up-sixth {
+
+    margin: 0 27px 0 38px;
+}
+
+/* Teeth white-down part */
+.down-first {
+    margin: 0 43px 0;
+}
+
+.down-third {
+    margin: 0 44px 0 51px;
+}
+
+.down-fifth {
+    margin: 0 44px 0 56px
+}
+
+.neck {
+    width: 265px;
+    height: 77px;
+    background-color: #9574B4;
+    margin-left: 375px;
+}
+
+.neck-yellow {
+    width: 260px;
+    height: 30px;
+    background: #FDC580;
+    margin-top: 24px;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.body,
+.left-hand,
+.right-hand {
+    background-color: #9574B4;
+    display: inline-block;
+}
+
+.left-hand {
+    margin-left: 15px;
+}
+
+.body {
+    width: 721px;
+    height: 756px;
+    border-radius: 22px;
+}
+
+.circle {
+    width: 431px;
+    height: 431px;
+    border-radius: 214px;
+    background-color: #E73896;
+    margin: 272px 116px auto 174px;
+}
+
+.left-hand,
+.left-hand-black {
+    border-top-left-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+
+.left-hand-black {
+    background-color: #000000;
+    height: 175px;
+    width: 40px;
+}
+
+.right-hand,
+.right-hand-black {
+    border-top-right-radius: 22px;
+    border-bottom-right-radius: 22px;
+}
+
+.right-hand-black {
+    background-color: #000000;
+    height: 175px;
+    width: 40px;
+    margin-left: auto;
+}
+
+.left-hand,
+.right-hand {
+    background-color: #9574B4;
+    height: 175px;
+    margin-bottom: 508px;
+}
+
+.left-hand {
+    width: 120px;
+}
+
+.right-hand {
+    width: 114px;
+}
+
+.left-leg,
+.right-leg {
+    width: 161px;
+    height: 152px;
+    background-color: #9574B4;
+    display: inline-block;
+    border-bottom-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+
+.left-leg {
+    margin-left: 202px;
+    margin-right: 264px;
+}
+
+.left-leg-black,
+.right-leg-black {
+    width: 161px;
+    height: 40px;
+    background-color: #000000;
+    border-bottom-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    margin-bottom: 5px;
+    margin-top: 112px;
+}
