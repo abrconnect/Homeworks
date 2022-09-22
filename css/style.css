@@ -1,0 +1,322 @@
+*,
+html,
+body {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 0;
+}
+
+/* COLORS */
+.black {
+    background-color: #000000;
+}
+
+.darkgrey {
+    background-color: #342F3A;
+}
+
+.lightgrey {
+    background-color: #6D696B;
+}
+
+.white {
+    background-color: #FFFFFF;
+}
+
+.yellow {
+    background-color: #D0BB54;
+}
+
+/* END COLORS */
+
+.main-wrap {
+    width: 1065px;
+    margin: 10px auto;
+    background-color: lightpink;
+}
+
+.top-head-wrap {
+    position: relative;
+    width: 435px;
+    height: 86px;
+}
+
+.ear {
+    width: 60px;
+    height: 86px;
+    position: absolute;
+}
+
+.left-ear {
+    position: absolute;
+    left: 0;
+
+}
+
+.right-ear {
+    position: absolute;
+    right: 0;
+}
+
+.line-head {
+    width: 261px;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 87px;
+}
+
+.face-wrap {
+    width: 435px;
+    height: 288px;
+    position: relative;
+}
+
+.face {
+    width: 365px;
+    height: 258px;
+    position: absolute;
+    bottom: 0;
+    left: 35px;
+}
+
+.eye-long {
+    width: 30px;
+    height: 90px;
+    position: absolute;
+}
+
+.eye-square {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+}
+
+.eye-long-left {
+    left: 53px;
+    bottom: 83px;
+}
+
+.eye-square-left {
+    left: 83px;
+    bottom: 83px;
+}
+
+.eye-square-right {
+    right: 82px;
+    bottom: 83px;
+}
+
+.eye-long-right {
+    right: 53px;
+    bottom: 83px;
+}
+
+.neck-line-wrap {
+    width: 1065px;
+    height: 116px;
+    position: relative;
+}
+
+.triangle-left {
+    width: 0;
+    height: 0;
+    border-top: 116px solid #000000;
+    border-left: 130px solid transparent;
+    position: absolute;
+    left: 0;
+}
+
+.neck-line {
+    width: 807px;
+    height: 116px;
+    position: absolute;
+    left: 129px;
+}
+
+.mouth-big {
+    width: 200px;
+    height: 86px;
+    background-color: #E2C096;
+    position: absolute;
+    left: 304px;
+
+}
+
+.mouth-small {
+    width: 116px;
+    height: 30px;
+    position: absolute;
+    top: 28px;
+    left: 42px;
+}
+
+.triangle-right {
+    width: 0;
+    height: 0;
+    border-top: 116px solid #000000;
+    border-right: 130px solid transparent;
+    position: absolute;
+    right: 0;
+}
+
+.body-main-wrap {
+    width: 807px;
+    height: 201px;
+    position: relative;
+}
+
+.middle-body {
+    width: 561px;
+    height: 201px;
+    position: absolute;
+    left: 123px;
+}
+
+.center-body {
+    width: 315px;
+    height: 201px;
+    position: absolute;
+    left: 123px;
+}
+
+.batman-logo {
+    width: 124px;
+    height: 124px;
+    background-color: #D9D9D9;
+    border-radius: 50px;
+    border: 10px solid black;
+    position: absolute;
+    top: 45px;
+    left: 95px;
+}
+
+.b {
+    color: #000000;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    position: absolute;
+    top: 15px;
+    left: 36px;
+}
+
+.main-belt-wrap {
+    width: 807px;
+    height: 57px;
+    position: relative;
+}
+
+.block-grey-left,
+.block-grey-right {
+    width: 56px;
+    height: 57px;
+    position: absolute;
+}
+
+.block-grey-left {
+    left: 159px;
+}
+
+.block-grey-right {
+    right: 160px;
+}
+
+.block-yellow-belt {
+    width: 89px;
+    height: 57px;
+    position: absolute;
+}
+
+.block-yellow-first {
+    left: 246px;
+}
+
+.block-yellow-second {
+    left: 360px;
+}
+
+.block-yellow-third {
+    right: 246px;
+}
+
+.under-belt-wrap {
+    width: 807px;
+    height: 163px;
+    position: relative;
+}
+
+.hand-main-left,
+.hand-main-right {
+    width: 147px;
+    height: 152px;
+    position: absolute;
+}
+
+.hand-main-left {
+    border-radius: 15px 0 15px 15px;
+    left: 68px;
+}
+
+.hand-main-right {
+    border-radius: 0 15px 15px 15px;
+    right: 69px;
+}
+
+.hand-second-left,
+.hand-second-right {
+    width: 123px;
+    height: 77px;
+    position: absolute;
+    top: 55px;
+    left: 12px;
+    border-radius: 20px;
+}
+
+.under-belt-middle {
+    width: 315px;
+    height: 163px;
+    position: absolute;
+    left: 246px;
+}
+
+.under-belt-line {
+    width: 315px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+}
+
+.under-belt-triangle {
+    width: 0;
+    height: 0;
+    position: absolute;
+    border-left: 114px solid transparent;
+    border-right: 114px solid transparent;
+    border-top: 133px solid #000000;
+    top: 30px;
+    left: 46px;
+}
+
+.legs-wrap {
+    width: 315px;
+    height: 101px;
+    position: relative;
+}
+
+.leg-main-left,
+.leg-main-right {
+    width: 118px;
+    height: 101px;
+    position: absolute;
+}
+
+.leg-main-right {
+    right: 0;
+}
+
+.leg-second-left,
+.leg-second-right {
+    width: 118px;
+    height: 12px;
+}
