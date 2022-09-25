@@ -1,0 +1,52 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+.roman {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+.book-division {
+    text-align: justify;
+    font-size: 25px;
+    font-weight: 700;
+    text-indent: 1.5cm;
+}
+
+.book-title,
+.chapter-header {
+    text-align: justify;
+    text-indent: 1.25cm;
+}
+
+.chapter-header {
+    font-size: 23px;
+}
+
+.text {
+    text-align: justify;
+    font-size: 12px;
+    text-indent: 1.25cm;
+    margin: 0;
+}
+
+.arrow-nav {
+    height: 15px;
+}
+
+.current-page {
+    text-decoration: underline;
+}
+
+.main-ul {
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.li-nav {
+    display: inline;
+}
