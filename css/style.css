@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    font-size: 0;
+    border: 0;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+}
+
+.main-wrap {
+    background: #C4C4C4;
+    width: 1100px;
+    height: 800px;
+    padding: 50px;
+}
+
+.big,
+.small {
+    background: #FC8F8F;
+    text-align: center;
+}
+
+.big {
+    width: 200px;
+    height: 200px;
+    font-size: 64px;
+    padding: 63px 0 62px 0;
+}
+
+.small {
+    width: 100px;
+    height: 100px;
+    font-size: 36px;
+    padding: 31px 0 31.5px;
+    margin-left: 15px;
+    float: left;
+}
+
+.small:first-child {
+    margin: 0;
+}
+
+.row {
+    background: #E6E6E6;
+}
+
+.row-second {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.block-one {
+    float: left;
+}
+
+.block-two {
+    float: right;
+}
+
+.block-one-second {
+    float: left;
+}
+
+.row::after {
+    content: "";
+    display: block;
+    clear: both;
+    height: 0;
+}
+
+.block-one-third,
+.block-two-third {
+    float: left;
+}
+
+.wrap-one {
+    float: right;
+}
+
+.wrap-two {
+    float: right;
+}
+
+.block-one-third {
+    margin-right: 15px;
+}
+
+.block-three-third,
+.block-four-third {
+    float: left;
+}
+
+.block-four-third {
+    margin-left: 15px;
+}
